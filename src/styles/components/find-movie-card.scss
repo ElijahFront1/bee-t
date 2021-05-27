@@ -1,0 +1,25 @@
+.find-movie-card {
+    .card {
+        background-color: rgba(17, 17, 17, 0.8);
+        transition: 0.4s;
+    }
+    .card:hover {
+        background-color: rgb(41, 41, 41);
+    }
+    &__span-wrapper {
+        span {
+            border-right: 1px solid #fefefe;
+            padding-right: 10px;
+            margin-right: 10px;
+        }
+    }
+    a {
+        color: #fefefe;
+        text-decoration: none;
+    }
+    a:hover,
+    a:focus {
+        color: #fefefe;
+        text-decoration: none;
+    }
+}

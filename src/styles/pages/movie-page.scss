@@ -1,0 +1,14 @@
+.movie-page {
+    @media (max-width: 767px) {
+        .search {
+            display: none !important;
+        }
+    }
+    &__span-wrapper {
+        span {
+            border-right: 1px solid #fefefe;
+            padding-right: 10px;
+            margin-right: 10px;
+        }
+    }
+}

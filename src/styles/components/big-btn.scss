@@ -1,0 +1,29 @@
+.big-btn {
+    text-align: center;
+    transition: all 0.5s;
+}
+
+.big-btn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.3s;
+}
+
+.big-btn span:after {
+    content: "\00bb";
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.3s;
+}
+
+.big-btn:hover span {
+    padding-right: 25px;
+}
+
+.big-btn:hover span:after {
+    opacity: 1;
+    right: 0;
+}
